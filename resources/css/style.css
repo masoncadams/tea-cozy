@@ -1,0 +1,33 @@
+body {
+    display: block;
+    font-family: helvetica;
+    font-size: 22px;
+    color:seashell;
+    background-color:black;
+    opacity:.9;
+    text-align: center;
+}
+
+header {
+    position:fixed;
+    z-index:1;
+    width:100%;
+}
+
+#logo {
+    height: 50px;
+    padding-left: 10px;
+}
+
+nav {
+    text-align:right;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+span a {
+    text-decoration: underline;
+}
